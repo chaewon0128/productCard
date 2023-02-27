@@ -1,0 +1,28 @@
+.DeliveryInfo {
+  border-bottom: 1px solid #dee0e3;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.delivery::after {
+  content: '|';
+  padding: 0 6px;
+  color: #dee0e3;
+}
+
+.charge {
+  font-weight: 700;
+  margin-right: 2px;
+}
+
+.charge::after {
+  content: '(주문시 결제)';
+  color: #6b90dc;
+  padding-left: 2px;
+}
+
+p {
+  color: #999999;
+  margin: 8px 0;
+}

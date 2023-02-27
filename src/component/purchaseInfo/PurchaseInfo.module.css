@@ -1,0 +1,42 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dee0e3;
+  align-items: center;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+}
+
+.total {
+  color: #333333;
+}
+
+.infoButton {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border: 1px solid #dee0e3;
+  background-color: #ffff;
+  cursor: pointer;
+  position: absolute;
+  left: 90px;
+  bottom: 25px;
+  padding: 0;
+}
+
+.count {
+  color: #999999;
+  font-weight: 400;
+  margin-right: 6px;
+}
+
+.count::after {
+  content: '|';
+  padding: 6px;
+}
+
+.price {
+  font-size: 22px;
+}

@@ -1,0 +1,25 @@
+.counter {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+  height: 34px;
+  border: 1px solid #dee0e3;
+  border-bottom: 1px solid #dee0e3;
+}
+
+.button {
+  background-color: #dee0e3;
+  border: 1px solid #dee0e3;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.count {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+}

@@ -1,0 +1,43 @@
+.ProductInfo {
+  border-bottom: 1px solid #dee0e3;
+}
+
+image {
+  display: inline-block;
+  max-width: auto;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.005em;
+  color: #333333;
+  width: 346px;
+  height: 46px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount {
+  color: #6b90dc;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.price {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.price::before {
+  content: '56,760원';
+  color: #999999;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: line-through;
+  margin-right: 6px;
+}
